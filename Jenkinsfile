@@ -6,7 +6,7 @@ pipeline {
             steps 
             {
                 script{
-                    python temp.py
+                    bat "python temp.py"
                     echo "Hello Jenkins"
                 }
             }
